@@ -34,3 +34,31 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+---
+
+## 個人用設定メモ
+
+### ⚠️ QMK CLI バージョンに関する重要な注意事項
+
+**問題**: QMK CLI 1.1.8でスプリットキーボードの左側が動作しない  
+**動作確認済み**: QMK CLI 1.1.7では問題なし  
+**対処法**: QMK CLI 1.1.7を継続使用
+
+#### 推定される原因
+- ビルドプロセスの変更（1.1.7→1.1.8で3つのコミット）
+- コンパイラ設定やビルドフラグの変更
+- スプリットキーボード通信初期化タイミングの変更
+
+#### バージョン確認方法
+```bash
+qmk --version
+```
+
+#### トラブル時の対処
+```bash
+qmk clean
+qmk compile
+```
+
+*更新日: 2025-07-22*
