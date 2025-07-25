@@ -23,11 +23,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      XXXXXXX,   KC_K,    KC_Y,    KC_O,  KC_DOT,   KC_EQL,                         KC_F,    KC_C,    KC_L,    KC_P,    KC_Q,    KC_Z,
+      XXXXXXX,    KC_K,    KC_Y,    KC_O,  KC_DOT,  KC_EQL,                         KC_F,    KC_C,    KC_L,    KC_P,    KC_Q,    KC_Z,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX,   KC_H,    KC_I,    KC_E,    KC_A,    KC_U,                          KC_D,    KC_S,    KC_T,    KC_N,    KC_R,    KC_V,
+      XXXXXXX,    KC_H,    KC_I,    KC_E,    KC_A,    KC_U,                         KC_D,    KC_S,    KC_T,    KC_N,    KC_R,    KC_V,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX,   KC_J, KC_MINUS, KC_COMM, KC_LPRN,  KC_DQT,                         KC_W,    KC_G,    KC_M,    KC_B,    KC_X, KC_RPRN,
+      XXXXXXX,    KC_J,KC_MINUS, KC_COMM,  KC_F23, KC_QUOT,                         KC_W,    KC_G,    KC_M,    KC_B,    KC_X, KC_RPRN,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                         KC_BSPC,LT(1,KC_SPC),LT(2,KC_ENT),KC_RCTL,KC_RSFT,KC_RALT
                                       //`--------------------------'  `--------------------------'
@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
       XXXXXXX, XXXXXXX, KC_CIRC, KC_EXLM,  KC_DLR, XXXXXXX,                      XXXXXXX,   KC_AT, KC_TILD,  KC_GRV, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, KC_LCBR, KC_LBRC, KC_ASTR, XXXXXXX,                      XXXXXXX, KC_QUOT, KC_RBRC, KC_RCBR, KC_SLSH, XXXXXXX,
+      XXXXXXX, XXXXXXX, KC_LCBR, KC_LBRC, KC_ASTR, XXXXXXX,                      XXXXXXX,  KC_DQT, KC_RBRC, KC_RPRN, KC_RCBR, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, KC_SLSH, KC_QUES, XXXXXXX,                      XXXXXXX, KC_PERC, KC_BSLS, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
